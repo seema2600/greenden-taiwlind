@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+  <title>Greenden</title>
+  
+</head>
+<body>
+    <!--responsive navbar-->
+   <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+    <h1 class="text-2xl">Greenden</h1>
+
+    <!-- HAMBURGER MENU BUTTON -->
+    <button class="p-2 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5M3.75 12h16.5m-16.5 6.75h16.5" />
+        </svg>
+    </button>
+
+    <ul class="hidden md:flex gap-6 text-gray-700">
+        <li><a href="index.html" class="hover:text-black hover:underline">Home</a></li>
+        <li><a href="product.html" class="hover:text-black hover:underline">Products</a></li>
+        <li><a href="contact.html" class="hover:text-black hover:underline">Contact</a></li>
+    </ul>
+</nav>
+    <!-- MOBILE SIDEBAR -->
+<div id="sideNav" class="fixed top-0 left-0 h-full w-64 bg-green-200 p-6 transform -translate-x-full transition-transform duration-300 md:hidden">
+    <button id="closeBtn" class="mb-6 text-xl font-bold">X</button>
+
+    <ul class="flex flex-col gap-6 text-gray-700">
+        <li><a href="index.html" class="hover:text-black">Home</a></li>
+        <li><a href="product.html" class="hover:text-black">Products</a></li>
+        <li><a href="contact.html" class="hover:text-black">Contact</a></li>
+    </ul>
+</div>
+    <!--header section-->
+    <section class="bg-green-100 p-4 flex justify-center">
+      <div> 
+     <p class="mb-4">we offer you a wide range of articial snd natural flowers</p>
+     <h2 class="font-black text-4xl mb-5">Plant for your Interior</h2>
+     <div class="mt-5">
+        <button class="bg-black rounded p-2 text-white ">Shop Now</button>
+        <button class="border border-black rounded p-2">watch video</button>
+     </div>
+     <p class="mt-5">160+ plant species| 100+ clients</p>
+     </div>
+     <div class="hidden md:block p-6">
+        <img src="flower.jpg" alt="header image">
+     </div>
+    </section>
+    <!--about-->
+    <section class="text-center" >
+        <h1 class="text-3xl font-bold mt-5">About us</h1>
+        <p>this site for those who admire the beauty and harmony of nature</p>
+       <div class="md:flex">
+        <div class="border border-black p-2 m-6">
+            <h2 class="text-xl font-medium">large assortment</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+     stroke-width="1.5" stroke="currentColor"
+     class="h-12 w-12 mx-auto mb-4">
+  <path stroke-linecap="round" stroke-linejoin="round"
+        d="M9 2.25h6M9 2.25a1.5 1.5 0 00-1.5 1.5v1.5h9V3.75a1.5 1.5 0 00-1.5-1.5M9 2.25h6m3 5.25H6a1.5 1.5 0 00-1.5 1.5v9A1.5 1.5 0 006 19.5h12a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0018 7.5z" />
+</svg>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum possimus expedita quasi saepe porro dolorum deleniti tempore corporis, officiis molestiae pariatur dolorem architecto adipisci, inventore quaerat laborum tenetur? Assumenda?</p>
+            
+        </div>
+
+            <div class="border border-black p-2 m-6">
+            <h2 class="text-xl font-medium">free and fast shipping</h2>
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+     stroke-width="1.5" stroke="currentColor"
+     class="h-12 w-12 mx-auto mb-4">
+  <path stroke-linecap="round" stroke-linejoin="round"
+        d="M16.023 9.348h4.992m0 0V4.356m0 4.992l-5.044-5.044M7.977 14.652H2.985m0 0v4.992m0-4.992l5.044 5.044" />
+</svg>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum possimus expedita quasi saepe porro dolorum deleniti tempore corporis, officiis molestiae pariatur dolorem architecto adipisci, inventore quaerat laborum tenetur? Assumenda?</p>
+            
+        </div>
+            <div class="border border-black p-2 m-6">
+            <h2 class="text-xl font-medium">24/7 support</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+     stroke-width="1.5" stroke="currentColor"
+     class="h-12 w-12 mx-auto mb-4">
+  <path stroke-linecap="round" stroke-linejoin="round"
+        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25A2.25 2.25 0 0021.75 19.5v-1.372a1.125 1.125 0 00-.863-1.092l-4.347-1.087a1.125 1.125 0 00-1.235.52l-.97 1.617a1.125 1.125 0 01-1.21.53 12.036 12.036 0 01-8.522-8.523 1.125 1.125 0 01.53-1.21l1.617-.97a1.125 1.125 0 00.52-1.235L6.214 3.113A1.125 1.125 0 005.122 2.25H3.75A1.5 1.5 0 002.25 3.75v3z" />
+</svg>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum possimus expedita quasi saepe porro dolorum deleniti tempore corporis, officiis molestiae pariatur dolorem architecto adipisci, inventore quaerat laborum tenetur? Assumenda?</p>
+            
+        </div>
+        </div>
+        
+<!--v=best seller-->
+<section class="p-4">
+  <h1 class="text-center font-bold text-3xl mb-8">Best Sellers</h1>
+
+  <div class="max-w-5xl mx-auto grid gap-20sm:grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+
+    <div class="flex flex-col items-center">
+      <img src="rose.jpg" class="w-48 h-56 object-cover rounded-lg shadow inline hover:shadow-xl transform hover:translate-y-2" />
+      <h2 class="mt-4 text-lg font-semibold">Rose Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <img src="lily.jpg" class="w-48 h-56 object-cover rounded-lg inline hover:shadow-xl transform hover:translate-y-2" />
+      <h2 class="mt-4 text-lg font-semibold">Lily Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <img src="hibiscu.jpg" class="w-48 h-56 object-cover rounded-lg shadow inline hover:shadow-xl transform hover:translate-y-2" />
+      <h2 class="mt-4 text-lg font-semibold">Hibiscus Rose</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <img src="snake.jpg" class="w-48 h-56 object-cover rounded-lg shadow inline hover:shadow-xl transform hover:translate-y-2" />
+      <h2 class="mt-4 text-lg font-semibold">snake plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+  </div>
+</section>
+
+<!--customer review-->
+
+<section>
+    <h1 class="text-3xl font-bold mt-5 text-center"> Customer Reviews</h1>
+    <div class="flex flex-col gap-10 justify-center text-white m-5">
+
+    </div>
+    <div class="bg-green-900 p-5 container text-white"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consequuntur beatae ipsam, sapiente fugiat recusandae consequatur a ex officia est vero sed accusamus hic ipsa iusto, minus dolores veniam id?</p>
+        <p class="font-bold text-yellow-300">genny mathew</p>
+    </div>
+    
+    <div class="bg-green-900 p-5 container mt-5 text-white">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur qui assumenda eius totam quo architecto, aliquam doloribus repellat saepe culpa veniam neque sint earum dolor fugit vero porro eveniet?</p>   
+    <p class="font-bold text-yellow-300">jim</p>
+    </div>
+
+     <div class="bg-green-900 p-5 container mt-5 text-white">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur qui assumenda eius totam quo architecto, aliquam doloribus repellat saepe culpa veniam neque sint earum dolor fugit vero porro eveniet?</p>   
+    <p class="font-bold text-yellow-300">parker</p>
+    </div>
+ 
+ 
+
+    </div>
+</section>
+
+
+
+<!--footer-->
+<section class="bg-green-100 p-10 gap-5 mt-5">
+<h1 class="text-4xl font-bold">Greenden</h1>
+<p>the standard chunk of lorem ipsum used since the 1500s is reprodused below for those interest</p>
+<p>@ 2021 Greenden.com</p>
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

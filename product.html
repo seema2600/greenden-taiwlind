@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Greenden | Products</title>
+</head>
+
+<body class="bg-white">
+
+<!-- NAVBAR -->
+<nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+    <h1 class="text-2xl font-bold">Greenden</h1>
+
+    <button class="p-2 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5M3.75 12h16.5m-16.5 6.75h16.5" />
+        </svg>
+    </button>
+
+    <ul class="hidden md:flex gap-6 text-gray-700">
+        <li><a href="index.html" class="hover:text-black hover:underline">Home</a></li>
+        <li><a href="product.html" class="text-black underline">Products</a></li>
+        <li><a href="contact.html" class="hover:text-black hover:underline">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HEADER -->
+<section class="text-center mt-10">
+    <h1 class="text-3xl font-bold">Our Products</h1>
+
+    <!-- Search Bar -->
+    <div class="flex justify-center mt-6">
+        <input id="searchBar" type="text" placeholder="Search for a Product..."
+               class="border w-1/2 p-3 rounded-lg shadow-sm" />
+    </div>
+
+    <!-- Suggestion Box -->
+    <div id="suggestions" class="border w-1/2 bg-white mx-auto rounded shadow hidden"></div>
+</section>
+
+
+<!-- PRODUCT GRID -->
+<section class="p-10">
+  <div class="max-w-5xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-10">
+
+    <div class="flex flex-col items-center product-card">
+      <img src="rose.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Rose Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="lily.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Lily Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="hibiscu.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Hibiscus Rose</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="snake.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Snake Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="rose.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Rose Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="lily.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Lily Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="hibiscu.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Hibiscus Rose</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+    <div class="flex flex-col items-center product-card">
+      <img src="snake.jpg" class="w-48 h-56 object-cover rounded-lg shadow hover:-translate-y-2 transition duration-300" />
+      <h2 class="mt-4 font-semibold">Snake Plant</h2>
+      <p class="text-gray-600">$20</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section class="bg-green-100 p-10 text-center mt-10">
+    <h1 class="text-3xl font-bold">Greenden</h1>
+    <p>The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interested.</p>
+    <p class="mt-3">© 2021 Greenden.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
